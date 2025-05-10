@@ -20,3 +20,6 @@ export OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE=delta
 
 Já no NewRelic para visualizar os Logs:
 Criei uma key API Ingest - License, ja que enviaria uma resposta em JSON e não uma resposta em REST Api!!!
+
+-----------------------------------------------------------------------------------------------------------------------------
+O mais importante é você criar sua Api Key e também no codigo declarar o - service.name - para conseguir enviar os logs 
