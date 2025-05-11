@@ -5,11 +5,11 @@ import { diag, DiagConsoleLogger, DiagLogLevel } from '@opentelemetry/api';
 // Configuração do logger do OpenTelemetry
 diag.setLogger(new DiagConsoleLogger(), DiagLogLevel.INFO);
 
-const newRelicApiKey = '63e29ebb818309dd859e41d256ee2113FFFFNRAL" ';
+const newRelicApiKey = '63e29ebb818309dd859e41d256ee2113FFFFNRAL';
 
 // Exportador OTLP para enviar os dados para o New Relic
 const traceExporter = new OTLPTraceExporter({
-  url: 'https://log-api.newrelic.com/log/v1',
+  url: 'https://otlp.nr-data.net:4317',
   headers: {
     'api-key': newRelicApiKey,
   },
