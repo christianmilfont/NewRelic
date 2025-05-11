@@ -12,3 +12,4 @@
 - agora para propagar o traceparent do front para o back, precisei incluir o cabeçalho traceparent nas requisições http enviadas do frontend, de forma que o backend possa ler esse cabeçalho e associar os logs de ambos os lados
 - nesse caso como nosso redux no createOrder faz as ações, precisa adicionar o cabeçalho as requisições feitas durante o processo da criacao do pedido
 
+## No repositorio esta o codigo que fiz seguindo a regra de negocio!!!
